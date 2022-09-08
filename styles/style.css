@@ -13,10 +13,16 @@ body {
     font-family: "Open sans", sans-serif;
 }
 
-/* HEADER */
-header {
+h2 {
+    margin: 40px;
 }
 
+h3 {
+    color: var(--green);
+    margin-bottom: 10px;
+}
+
+/* HEADER */
 /* NAV */
 .nav-bar {
     display: flex;
@@ -59,3 +65,58 @@ header {
     margin-top: 5px;
 }
 
+/* SECTION 1 */
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+}
+
+.card-container div img {
+    width: 50px;
+}
+
+/* SECTION 2*/
+.section2 {
+    background-color: var(--green);
+    display: flex;
+    justify-content: space-between;
+}
+
+.section2-text-container {
+    width: 40%;
+    margin: 30px 60px;
+    color: white;
+}
+
+.section2-text-container h4 {
+    padding-bottom: 20px;
+    display: inline-block;
+    border-bottom: 1px solid white;
+}
+
+.section2-img-container {
+    margin: 30px;
+}
+
+.section2-img-container img {
+    width: 250px;
+}
